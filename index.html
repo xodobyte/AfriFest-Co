@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" data-theme="dark" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -12,14 +12,15 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-gray-100 dark:bg-black">
 
   <!-- Navbar -->
   <nav>
     <div class="container mx-auto px-6 py-3">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between">
         <div class="flex items-center justify-between">
-          <a class="text-xl font-bold text-gray-800 hover:text-gray-700 md:text-2xl" href="index.html">AfriFest Co.</a>
+          <a class="text-xl font-extrabold text-gray-800 hover:text-gray-700 dark:text-white md:text-2xl"
+            href="index.html">AfriFest Co.</a>
           <button class="focus:shadow-outline-purple rounded-lg focus:outline-none md:hidden" aria-label="Toggle menu"
             onclick="toggleMenu()">
             <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
@@ -28,11 +29,19 @@
           </button>
         </div>
         <div class="hidden flex-col md:-mx-4 md:flex md:flex-row">
-          <a href="#header" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">Home</a>
-          <a href="#about" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">About Us</a>
-          <a href="#services" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">Services</a>
-          <a href="#events" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">Upcoming Events</a>
-          <a href="#bookusnow" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">Book Us Now</a>
+          <a href="#header"
+            class="my-1 font-m font-semibold text-black hover:text-blue-500 dark:text-white md:mx-4 md:my-0 transition-colors">Home</a>
+          <a href="#about"
+            class="my-1 font-m font-semibold text-black hover:text-blue-500 dark:text-white md:mx-4 md:my-0 transition-colors">About
+            Us</a>
+          <a href="#services"
+            class="my-1 font-m font-semibold text-black hover:text-blue-500 dark:text-white md:mx-4 md:my-0 transition-colors">Services</a>
+          <a href="#events"
+            class="my-1 font-m font-semibold text-black hover:text-blue-500 dark:text-white md:mx-4 md:my-0 transition-colors">Upcoming
+            Events</a>
+          <a href="#bookusnow"
+            class="my-1 font-m font-semibold text-black hover:text-blue-500 dark:text-white md:mx-4 md:my-0 transition-colors">Book
+            Us Now</a>
         </div>
       </div>
     </div>
@@ -40,11 +49,11 @@
     <!-- Mobile menu -->
     <div class="hidden w-full shadow-lg" id="mobile-menu">
       <div class="container mx-auto px-6 py-3">
-        <a href="#header" class="my-2 block font-bold text-gray-800">Home</a>
-        <a href="#about" class="my-2 block font-bold text-gray-800">About Us</a>
-        <a href="#services" class="my-2 block font-bold text-gray-800">Services</a>
-        <a href="#events" class="my-2 block font-bold text-gray-800">Upcoming Events</a>
-        <a href="#bookusnow" class="my-2 block font-bold text-gray-800">Book Us Now</a>
+        <a href="#header" class="my-2 font-m block font-bold text-black dark:text-white">Home</a>
+        <a href="#about" class="my-2 font-m block font-bold text-black dark:text-white">About Us</a>
+        <a href="#services" class="my-2 font-m block font-bold text-black dark:text-white">Services</a>
+        <a href="#events" class="my-2 block font-m font-bold text-black dark:text-white">Upcoming Events</a>
+        <a href="#bookusnow" class="my-2 block font-m font-bold text-black dark:text-white">Book Us Now</a>
       </div>
     </div>
   </nav>
@@ -54,11 +63,12 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center justify-between py-16">
         <div class="hero-content md:w-1/2 md:pr-8">
-          <h1 class="text-4xl font-bold text-gray-800">The best event company in town</h1>
-          <p class="text-lg text-gray-600 mt-4">We organize amazing events for any occasion. Whether you need a birthday
+          <h1 class="text-4xl font-extrabold text-gray-800 dark:text-white">The best event company in town</h1>
+          <p class="text-lg text-gray-600 dark:text-gray-600 mt-4">We organize amazing events for any occasion. Whether
+            you need a birthday
             party, a wedding, a conference, or anything else, we have you covered.</p>
           <a href="#bookusnow"
-            class="inline-block px-4 py-2 rounded-md font-bold text-decoration-none mt-9 mb-6 bg-blue-500 text-white hover:bg-blue-600">Book
+            class="inline-block px-4 py-2 rounded-md font-bold text-decoration-none mt-9 mb-6 bg-blue-500 text-white hover:bg-blue-700 dark:text-white transition-colors">Book
             your event now</a>
         </div>
         <div class="hero-image md:w-1/2 md:pl-8">
@@ -73,33 +83,38 @@
   <!-- About -->
   <div class="py-16" id="about">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center">About Us</h2>
-      <p class="text-xl text-gray-600 mt-4 text-center">We are a team of passionate event planners who love to create
+      <h2 class="text-4xl font-extrabold text-black text-center dark:text-white">About Us</h2>
+      <p class="text-xl text-gray-600 dark:text-gray-600 mt-4 text-center">We are a team of passionate event planners
+        who love to create
         memorable and fun experiences for our clients.</p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
-        <div class="card p-6 bg-white shadow-lg rounded-lg flex flex-col items-center">
+        <div class="card p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg flex flex-col items-center">
           <img src="https://img.icons8.com/?size=80&id=DA67d1tKQ9Pr&format=png" alt="Wedding icon" class="w-12 h-12" />
-          <h3 class="text-2xl font-semibold mt-4">Weddings</h3>
-          <p class="text-gray-500 mt-2 text-center">We can help you plan your dream wedding, from the venue to the
+          <h3 class="text-2xl font-semibold mt-4 dark:text-white">Weddings</h3>
+          <p class="text-gray-500 mt-2 text-center dark:text-white">We can help you plan your dream wedding, from the
+            venue to the
             catering, from the decor to the entertainment.</p>
         </div>
-        <div class="card p-6 bg-white shadow-lg rounded-lg flex flex-col items-center">
+        <div class="card p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg flex flex-col items-center">
           <img src="https://img.icons8.com/?size=80&id=U41Ureyn1vCO&format=png" alt="Birthday icon" class="w-12 h-12" />
-          <h3 class="text-2xl font-semibold mt-4">Birthdays</h3>
-          <p class="text-gray-500 mt-2 text-center">We can make your birthday party a blast, whether it's for kids or
+          <h3 class="text-2xl font-semibold mt-4 dark:text-white">Birthdays</h3>
+          <p class="text-gray-500 mt-2 text-center dark:text-white">We can make your birthday party a blast, whether
+            it's for kids or
             adults, whether it's a small gathering or a big bash.</p>
         </div>
-        <div class="card p-6 bg-white shadow-lg rounded-lg flex flex-col items-center">
+        <div class="card p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg flex flex-col items-center">
           <img src="https://img.icons8.com/?size=80&id=wG20FqoYHvVB&format=png" alt="Conference icon"
             class="w-12 h-12" />
-          <h3 class="text-2xl font-semibold mt-4">Corporate Events</h3>
-          <p class="text-gray-500 mt-2 text-center">We can organize your corporate events, from seminars to workshops,
+          <h3 class="text-2xl font-semibold mt-4 dark:text-white">Corporate Events</h3>
+          <p class="text-gray-500 mt-2 text-center dark:text-white">We can organize your corporate events, from seminars
+            to workshops,
             from team building to product launches.</p>
         </div>
-        <div class="card p-6 bg-white shadow-lg rounded-lg flex flex-col items-center">
+        <div class="card p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg flex flex-col items-center">
           <img src="https://img.icons8.com/?size=80&id=YNLNxWJLEHLB&format=png" alt="Party icon" class="w-12 h-12" />
-          <h3 class="text-2xl font-semibold mt-4">Social Events</h3>
-          <p class="text-gray-500 mt-2 text-center">We can handle your social events, from anniversaries to reunions,
+          <h3 class="text-2xl font-semibold mt-4 dark:text-white">Social Events</h3>
+          <p class="text-gray-500 mt-2 text-center dark:text-white">We can handle your social events, from anniversaries
+            to reunions,
             from festivals to concerts.</p>
         </div>
       </div>
@@ -108,42 +123,46 @@
 
   <!-- Services -->
   <div class="container mx-auto px-4 py-8" id="services">
-    <h2 class="text-4xl font-bold text-center text-gray-800">Our Services</h1>
-      <p class="text-lg text-center text-gray-600 mt-4">We offer a range of services to make your event memorable and
+    <h2 class="text-4xl font-extrabold text-center text-black dark:text-white">Our Services</h1>
+      <p class="text-lg text-semibold text-center text-gray-600 dark:text-white mt-4">We offer a range of services to
+        make your event memorable and
         hassle-free.</p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-        <div class="card">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 ">
+        <div class="card dark:bg-gray-800 shadow-lg rounded-lg flex flex-col text-center">
           <div class="card-image">
             <img src="https://img.icons8.com/?size=80&id=dkL9eYC61t89&format=png" alt="Catering service"
-              class="w-48 h-48 object-cover mx-auto">
+              class="w-44 h-44 object-cover mx-auto">
           </div>
           <div class="card-content p-4">
-            <h2 class="text-2xl font-semibold text-gray-800">Catering</h2>
-            <p class="text-gray-600 mt-2">We provide delicious and diverse food options for your guests, from appetizers
+            <h2 class="text-2xl font-semibold text-black dark:text-white">Catering</h2>
+            <p class="text-gray-600 dark:text-white mt-2">We provide delicious and diverse food options for your guests,
+              from appetizers
               to desserts. Whether you need a buffet, a plated meal, or a cocktail reception, we have you covered.</p>
 
           </div>
         </div>
-        <div class="card">
+        <div class="card dark:bg-gray-800 shadow-lg rounded-lg flex flex-col text-center">
           <div class="card-image">
             <img src="https://img.icons8.com/?size=80&id=0gIPe2gZMkDe&format=png" alt="Decor service"
-              class="w-48 h-48 object-cover mx-auto">
+              class="w-44 h-44 object-cover mx-auto">
           </div>
           <div class="card-content p-4">
-            <h2 class="text-2xl font-semibold text-gray-800">Decor</h2>
-            <p class="text-gray-600 mt-2">We create stunning and personalized decor for your event, from flowers to
+            <h2 class="text-2xl font-semibold text-black dark:text-white">Decor</h2>
+            <p class="text-gray-600 dark:text-white mt-2">We create stunning and personalized decor for your event, from
+              flowers to
               lighting to furniture. We can transform any venue into your dream setting.</p>
 
           </div>
         </div>
-        <div class="card">
+        <div class="card dark:bg-gray-800 shadow-lg rounded-lg flex flex-col text-center">
           <div class="card-image">
             <img src="https://img.icons8.com/?size=80&id=vdLRVwD5w1j0&format=png" alt="Entertainment service"
-              class="w-48 h-48 object-cover mx-auto">
+              class="w-44 h-44 object-cover mx-auto">
           </div>
           <div class="card-content p-4">
-            <h2 class="text-2xl font-semibold text-gray-800">Entertainment</h2>
-            <p class="text-gray-600 mt-2">We provide fun and engaging entertainment for your event, from live music to
+            <h2 class="text-2xl font-semibold text-black dark:text-white">Entertainment</h2>
+            <p class="text-gray-600 dark:text-white mt-2">We provide fun and engaging entertainment for your event, from
+              live music to
               DJs to comedians. We can cater to any theme and audience.</p>
 
           </div>
@@ -153,8 +172,9 @@
 
   <!-- Upcoming Events -->
   <div class="container mx-auto px-4" id="events">
-    <h2 class="text-4xl font-bold text-center my-8">Upcoming Events</h2>
-    <p class="text-gray-600 mt-4 text-center mb-4">Check out some of the exciting events that we have planned for you.
+    <h2 class="text-4xl font-extrabold dark:text-white text-center my-8">Upcoming Events</h2>
+    <p class="text-gray-600 dark:text-white mt-4 text-center mb-4">Check out some of the exciting events that we have
+      planned for you.
     </p>
     <div class="swiper-container rounded-lg">
       <div class="swiper-wrapper">
@@ -162,11 +182,12 @@
           <img
             src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlydGhkYXklMjBwYXJ0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             alt="Event 1" class="w-full h-full object-cover">
-          <div class="swiper-caption bg-gray-900 bg-opacity-50 p-4 text-white">
+          <div class="swiper-caption bg-gray-900 bg-opacity-50 p-4 text-white dark:text-white">
             <div class="content p-4">
-              <p class="text-white">10 Oct 2024</p>
-              <h3 class="text-2xl font-semibold">Birthday Party</h3>
-              <p class="text-white mt-2">Celebrate your special day with us and make it unforgettable. We have
+              <p class="text-white dark:text-white">10 Oct 2024</p>
+              <h3 class="text-2xl font-semibold dark:text-white">Birthday Party</h3>
+              <p class="text-white dark:text-white mt-2">Celebrate your special day with us and make it unforgettable.
+                We have
                 everything you need to make your birthday party a blast, from balloons and cake to games and
                 entertainment.</p>
             </div>
@@ -178,9 +199,10 @@
             alt="Event 2" class="w-full h-full object-cover">
           <div class="swiper-caption bg-gray-900 bg-opacity-50 p-4 text-white">
             <div class="content p-4">
-              <p class="text-white">17 Oct 2024</p>
-              <h3 class="text-2xl font-semibold">Corporate Event</h3>
-              <p class="text-white mt-2">Boost your business and network with potential partners at our corporate event.
+              <p class="text-white dark:text-white">17 Oct 2024</p>
+              <h3 class="text-2xl font-semibold dark:text-white">Corporate Event</h3>
+              <p class="text-white dark:text-white mt-2">Boost your business and network with potential partners at our
+                corporate event.
                 We offer a professional and engaging environment for you to showcase your products and services, learn
                 from industry experts, and connect with other entrepreneurs.</p>
             </div>
@@ -192,9 +214,10 @@
             alt="Event 3" class="w-full h-full object-cover">
           <div class="swiper-caption bg-gray-900 bg-opacity-50 p-4 text-white">
             <div class="content p-4">
-              <p class="text-white">25 Sep 2024</p>
-              <h3 class="text-2xl font-semibold">Wedding Party</h3>
-              <p class="text-white mt-2">Join us for a celebration of love and happiness as we witness the union of two
+              <p class="text-white dark:text-white">25 Sep 2024</p>
+              <h3 class="text-2xl font-semibold dark:text-white">Wedding Party</h3>
+              <p class="text-white dark:text-white mt-2">Join us for a celebration of love and happiness as we witness
+                the union of two
                 souls. Enjoy the music, the food, and the company of your friends and family.</p>
             </div>
           </div>
@@ -207,54 +230,54 @@
   <div class="w-full px-4 py-12" id="bookusnow">
     <div class="max-w-4xl mx-auto space-y-6">
       <div class="text-center space-y-2">
-        <h1 class="text-4xl font-bold text-[#3b82f6]">Get in Touch</h1>
-        <p class="text-gray-600">Let's make your event extraordinary together</p>
+        <h1 class="text-4xl font-extrabold text-black dark:text-white">Get in Touch</h1>
+        <p class="text-gray-600 dark:text-white">Let's make your event extraordinary together</p>
       </div>
 
       <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <h2 class="text-[#3b82f6] mb-4">Contact Information</h2>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+          <h2 class="text-[#3b82f6] dark:text-white mb-4">Contact Information</h2>
           <div class="space-y-6">
             <div class="flex items-center gap-4">
-              <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#3b82f6]" fill="none" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="currentColor" class="size-6">
+              <div class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-500 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#3b82f6] dark:text-[#3b82f6]" fill="none"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round"
                     d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
               </div>
               <div>
-                <div class="font-medium">Phone</div>
-                <a href="tel:+15551234567" class="text-gray-600">+1 (555) 123-4567</a>
+                <div class="font-medium dark:text-white">Phone</div>
+                <a href="tel:+15551234567" class="text-gray-600 dark:text-white">+1 (555) 123-4567</a>
               </div>
             </div>
 
             <div class="flex items-center gap-4">
-              <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#3b82f6]" fill="none" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="currentColor" class="size-6">
+              <div class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-500 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#3b82f6] dark:text-[#3b82f6]" fill="none"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round"
                     d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                 </svg>
               </div>
               <div>
-                <div class="font-medium">Email</div>
-                <a href="mailto:contact@afrifest.co" class="text-gray-600">contact@afrifest.co</a>
+                <div class="font-medium dark:text-white">Email</div>
+                <a href="mailto:contact@afrifest.co" class="text-gray-600 dark:text-white">contact@afrifest.co</a>
               </div>
             </div>
 
             <div class="flex items-center gap-4">
-              <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#3b82f6]" fill="none" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="currentColor" class="size-6">
+              <div class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-500 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#3b82f6] dark:text-[#3b82f6]" fill="none"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                   <path stroke-linecap="round" stroke-linejoin="round"
                     d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                 </svg>
               </div>
               <div>
-                <div class="font-medium">Location</div>
-                <address class="text-gray-600 not-italic">
+                <div class="font-medium dark:text-white">Location</div>
+                <address class="text-gray-600 dark:text-white not-italic">
                   123 Event Avenue, Suite 100<br />
                   Los Angeles, CA 90012
                 </address>
@@ -263,8 +286,8 @@
           </div>
         </div>
 
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <h2 class="text-[#3b82f6] mb-4">Connect With Us</h2>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+          <h2 class="text-[#3b82f6] dark:text-white mb-4">Connect With Us</h2>
           <div class="space-y-6">
             <div class="flex gap-4 justify-center">
               <a href="#" class="hover:opacity-80">
@@ -277,7 +300,7 @@
                 </svg>
               </a>
               <a href="#" class="hover:opacity-80">
-                <span class="sr-only">Instagram</span>
+                <span class="sr-only dark:text-white">Instagram</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" x="0px" y="0px" viewBox="0 0 24 24">
                   <path
                     d="M 8 3 C 5.2504839 3 3 5.2504839 3 8 L 3 16 C 3 18.749516 5.2504839 21 8 21 L 16 21 C 18.749516 21 21 18.749516 21 16 L 21 8 C 21 5.2504839 18.749516 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.668484 5 19 6.3315161 19 8 L 19 16 C 19 17.668484 17.668484 19 16 19 L 8 19 C 6.3315161 19 5 17.668484 5 16 L 5 8 C 5 6.3315161 6.3315161 5 8 5 z M 17 6 A 1 1 0 0 0 17 8 A 1 1 0 0 0 17 6 z M 12 7 C 10.416667 7 9.1018922 7.6297556 8.2519531 8.5859375 C 7.402014 9.5421194 7 10.777778 7 12 C 7 13.222222 7.402014 14.457881 8.2519531 15.414062 C 9.1018922 16.370244 10.416667 17 12 17 C 13.583333 17 14.898108 16.370244 15.748047 15.414062 C 16.597986 14.457882 17 13.222222 17 12 C 17 10.777778 16.597986 9.5421194 15.748047 8.5859375 C 14.898108 7.6297556 13.583333 7 12 7 z M 12 9 C 13.083333 9 13.768559 9.3702444 14.251953 9.9140625 C 14.735347 10.457881 15 11.222222 15 12 C 15 12.777778 14.735347 13.542119 14.251953 14.085938 C 13.768559 14.629755 13.083333 15 12 15 C 10.916667 15 10.231441 14.629756 9.7480469 14.085938 C 9.2646532 13.542118 9 12.777778 9 12 C 9 11.222222 9.2646532 10.457881 9.7480469 9.9140625 C 10.231441 9.3702444 10.916667 9 12 9 z">
@@ -286,7 +309,7 @@
                 </svg>
               </a>
               <a href="#" class="hover:opacity-80">
-                <span class="sr-only">Twitter</span>
+                <span class="sr-only dark:text-white">Twitter</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" x="0px" y="0px" viewBox="0 0 50 50">
                   <path
                     d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z">
@@ -296,19 +319,19 @@
               </a>
             </div>
             <div>
-              <h3 class="font-medium mb-4">Business Hours</h3>
+              <h3 class="font-medium mb-4 dark:text-white">Business Hours</h3>
               <div class="space-y-2">
                 <div class="flex justify-between">
-                  <span class="text-gray-600">Monday - Friday</span>
-                  <span class="text-gray-600">9:00 AM - 6:00 PM</span>
+                  <span class="text-gray-600 dark:text-white">Monday - Friday</span>
+                  <span class="text-gray-600 dark:text-white">9:00 AM - 6:00 PM</span>
                 </div>
                 <div class="flex justify-between">
-                  <span class="text-gray-600">Saturday</span>
-                  <span class="text-gray-600">10:00 AM - 4:00 PM</span>
+                  <span class="text-gray-600 dark:text-white">Saturday</span>
+                  <span class="text-gray-600 dark:text-white">10:00 AM - 4:00 PM</span>
                 </div>
                 <div class="flex justify-between">
-                  <span class="text-gray-600">Sunday</span>
-                  <span class="text-gray-600">Closed</span>
+                  <span class="text-gray-600 dark:text-white">Sunday</span>
+                  <span class="text-gray-600 dark:text-white">Closed</span>
                 </div>
               </div>
             </div>
@@ -319,11 +342,10 @@
   </div>
 
   <!-- Footer -->
-  <footer class="mb-6 flex items-center text-center justify-center  font-mono">
+  <footer class="mb-6 flex items-center text-center justify-center font-mono">
     <div>
-      <p
-        class="dark:bg-gray-100 dark:text-black py-2 px-4 rounded-full shadow-lg md:shadow-lg lg:shadow-lg xl:shadow-lg">
-        Created by <span class="font-bold">Ryan 💙</span>
+      <p class="dark:text-white text-black dark:bg-gray-700 py-2 px-4 rounded-full shadow-lg md:shadow-lg lg:shadow-lg xl:shadow-lg">
+        Created by <span class="font-m font-bold">Ryan 💙</span>
       </p>
     </div>
   </footer>
