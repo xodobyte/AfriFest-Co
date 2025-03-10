@@ -4,7 +4,7 @@ Welcome to **AfriFest Co.** – South Africa's premier event planning company! W
 
 ## 🌟 Features
 
-- Responsive Design 📱💻
+- Responsive Design 📱
 - Smooth Navigation 🚀
 - Elegant UI with Tailwind CSS 🎨
 - Interactive Event Listings 📅
