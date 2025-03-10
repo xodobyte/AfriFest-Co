@@ -1,6 +1,6 @@
 # AfriFest-Co 🎉
 
-Welcome to **AfriFest Co.** – South Africa's premier event planning company! We specialize in creating extraordinary celebrations, from weddings and corporate events to birthdays and anniversaries. ✨
+Welcome to **AfriFest Co.** South Africa's premier event planning company! We specialize in creating extraordinary celebrations, from weddings and corporate events to birthdays and anniversaries. ✨
 
 ## 🌟 Features
 
