@@ -1,4 +1,4 @@
-# AfriFest-Co 🎉
+# 🎉 AfriFest Co
 
 Welcome to **AfriFest Co.** South Africa's premier event planning company! We specialize in creating extraordinary celebrations, from weddings and corporate events to birthdays and anniversaries. ✨
 
@@ -10,6 +10,6 @@ Welcome to **AfriFest Co.** South Africa's premier event planning company! We sp
 - Interactive Event Listings 📅
 - Seamless Booking System ✅
 
-## License 
+## 📜 License
 
 This project is open-source and available under the MIT License.
