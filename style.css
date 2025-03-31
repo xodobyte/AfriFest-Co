@@ -2,17 +2,16 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @layer components {
-
   .slider {
-      width: 100%;
-      overflow: hidden;
-    }
-    
-    .slide {
-      width: 100%;
-      transition: all 0.5s ease-in-out;
-    }
+    width: 100%;
+    overflow: hidden;
   }
+
+  .slide {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+}
 
 .swiper-container {
   overflow: hidden;
