@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://afri-fest-co.vercel.app/">
-    <img src="https://afri-fest-co.vercel.app/assets/banner.png" alt="Afri Fest Co Banner" />
+    <img src="afrifest.webp" alt="Afri Fest Co Banner" />
   </a>
 </div>
 
