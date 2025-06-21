@@ -16,7 +16,7 @@
   <!-- GitHub Profile Views Badge -->
   <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=brightgreen" alt="Profile Views" />
   <!-- Visitor Count Badge -->
-  <img src="https://profile-counter.glitch.me/YOUR_GITHUB_USERNAME/count.svg" alt="Visitor Count" />
+  <img src="https://visitor-badge.glitch.me/badge?page_id=realxryan.afri-fest-co&title=Visitor%20Count&color=brightgreen" alt="Visitor Count" />
   <!-- License Badge -->
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License Badge" />
 </div>
