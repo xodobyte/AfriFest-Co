@@ -14,7 +14,7 @@
 
 <div align="center">
   <!-- GitHub Profile Views Badge -->
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=brightgreen" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=xodobyte&color=brightgreen" alt="Profile Views" />
   <!-- Visitor Count Badge -->
   <img src="https://hits.seeyoufarm.com/api/count/incr?url=afri-fest-co.vercel.app&count_bg=%23ED64A6&title_bg=%23555555&icon=&icon_color=%23FFFFFF&title=Visits&edge_flat=false" alt="Visitor Count" />
   <!-- License Badge -->
