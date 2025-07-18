@@ -43,14 +43,6 @@
 
 ---
 
-## 🎬 Demo
-
-<div align="center">
-  <img src="https://afri-fest-co.vercel.app/assets/demo.gif" alt="Demo of Afri Fest Co" />
-</div>
-
----
-
 ## 🛠️ Built With
 
 <ul>
@@ -65,10 +57,10 @@
 ## ✍️ Author
 
 <p>
-  <strong>Your Name</strong> (<a href="https://github.com/YOUR_GITHUB_USERNAME">@realxryan</a>)
+  <strong>XODOBYTE</strong> (<a href="https://github.com/xodobyte">@xodobyte</a>)
 </p>
 
-<p>Feel free to connect on <a href="https://instagram.com/realxodog">Instagram</a> or <a href="https://www.linkedin.com/in/realxryan">LinkedIn</a>.</p>
+<p>Feel free to connect on <a href="https://instagram.com/taylorraps">Instagram</a> or <a href="https://www.linkedin.com/in/realxryan">LinkedIn</a>.</p>
 
 ---
 
@@ -79,5 +71,5 @@
 ---
 
 <p align="center">
-  Made with ❤️ by Ryan
+  Made with ❤️ by XODOBYTE 
 </p>
